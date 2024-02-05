@@ -1,0 +1,33 @@
+.card-organism {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-organism:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.card-organism__header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 15px;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-organism__title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.card-organism__body {
+    padding: 20px;
+}
+
+.card-organism__footer {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 0 0 12px 12px;
+}
